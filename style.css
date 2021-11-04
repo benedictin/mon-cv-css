@@ -1,0 +1,62 @@
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:rgb(227, 227, 235)
+}
+.conteneur
+{
+    background-color: white;
+    margin: 60px auto;
+    width: 850px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.doe
+{
+    font-weight: normal;
+}
+.mail,.number
+{
+    color: rgb(182, 179, 179);
+}
+.element2,.element5
+{
+    margin: 20px auto;
+}
+.front
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.exp,.ed,.pro,.ski,.int
+{
+    color: rgb(26, 202, 247);
+    margin:20px auto;
+}
+.element3,.element4,.element6
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.cercle{   
+ width: 15px;
+ height: 15px;
+ border-radius: 100%;
+ margin: 3px;
+}
+.cercle.active{
+    background-color: rgb(116, 180, 209);
+}
+.cercle.desactive{
+    background-color:rgb(188, 223, 236);
+}  
+.cercles
+{
+    display: flex;
+}
