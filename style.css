@@ -5,7 +5,7 @@
 }
 body
 {
-    background-color:rgb(227, 227, 235)
+    background-color:#e3e3eb
 }
 .conteneur
 {
@@ -21,9 +21,9 @@ body
 }
 .mail,.number
 {
-    color: rgb(182, 179, 179);
+    color: #b6b3b3
 }
-.element2,.element5
+.element2,.element4
 {
     margin: 20px auto;
 }
@@ -32,12 +32,12 @@ body
     text-decoration: underline;
     font-weight: bold;
 }
-.exp,.ed,.pro,.ski,.int
+.couleur
 {
-    color: rgb(26, 202, 247);
+    color: #1acaf7;
     margin:20px auto;
 }
-.element3,.element4,.element6
+.element3
 {
     display: flex;
     justify-content: space-between;
@@ -51,10 +51,10 @@ body
  margin: 3px;
 }
 .cercle.active{
-    background-color: rgb(116, 180, 209);
+    background-color:#74b4d1;
 }
 .cercle.desactive{
-    background-color:rgb(188, 223, 236);
+    background-color:#bcdfec;
 }  
 .cercles
 {
